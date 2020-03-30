@@ -1,0 +1,374 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200328.220106.12944.0.001.json",
+    "dumpEventTime": "2020-03-28T22:01:06Z",
+    "dumpEventTimeStamp": "1585443666225",
+    "processId": 12944,
+    "cwd": "C:\\Users\\J_Vic\\Documents\\semanaoministack11\\aulas\\mobile",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\J_Vic\\Documents\\semanaoministack11\\aulas\\mobile\\node_modules\\jest-worker\\build\\workers\\processChild.js"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz",
+        "speed": 1796,
+        "user": 26587906,
+        "nice": 0,
+        "sys": 18752296,
+        "idle": 320381343,
+        "irq": 1651312
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz",
+        "speed": 1796,
+        "user": 23059640,
+        "nice": 0,
+        "sys": 12229484,
+        "idle": 330432062,
+        "irq": 263218
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz",
+        "speed": 1796,
+        "user": 28350406,
+        "nice": 0,
+        "sys": 16782984,
+        "idle": 320587765,
+        "irq": 368968
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz",
+        "speed": 1796,
+        "user": 25857859,
+        "nice": 0,
+        "sys": 12896000,
+        "idle": 326967328,
+        "irq": 182125
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "b8:76:3f:cd:be:9f",
+        "address": "fe80::1d84:1df6:2f83:8f0e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "b8:76:3f:cd:be:9f",
+        "address": "192.168.0.103",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-QEQ2FQA"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff718c219f9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff718c25e1c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff718c24dd8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff718d234cb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff719539f4e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff719522021",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7193ee57c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7193f6521",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7193ebb13",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7193ea184",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff719411cab",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff71923381a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7190fb23f",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff71913525f",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff719984ddd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000001dd8bd465d2",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 10465280,
+    "totalCommittedMemory": 10465280,
+    "usedMemory": 8694488,
+    "availableMemory": 2189333440,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 1047344,
+        "available": 112
+      },
+      "old_space": {
+        "memorySize": 6701056,
+        "committedMemory": 6701056,
+        "capacity": 6624040,
+        "used": 5961928,
+        "available": 662112
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 430080,
+        "capacity": 405504,
+        "used": 176800,
+        "available": 228704
+      },
+      "map_space": {
+        "memorySize": 1052672,
+        "committedMemory": 1052672,
+        "capacity": 993520,
+        "used": 562480,
+        "available": 431040
+      },
+      "large_object_space": {
+        "memorySize": 532480,
+        "committedMemory": 532480,
+        "capacity": 524344,
+        "used": 524344,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 389120,
+        "committedMemory": 389120,
+        "capacity": 1047456,
+        "used": 386000,
+        "available": 661456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 0.843,
+    "kernelCpuSeconds": 0.531,
+    "cpuConsumptionPercent": 15.2667,
+    "maxRss": 51167232,
+    "pageFaults": {
+      "IORequired": 19074,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 608,
+      "writes": 97
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANSYS_SYSDIR": "winx64",
+    "ANSYS_SYSDIR32": "win32",
+    "ANS_OLD_ATTACH": "1",
+    "APPDATA": "C:\\Users\\J_Vic\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132294805748573470",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-QEQ2FQA",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "FORCE_COLOR": "0",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\J_Vic",
+    "LOCALAPPDATA": "C:\\Users\\J_Vic\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-QEQ2FQA",
+    "LSTC_LICENSE": "ANSYS",
+    "MOZ_PLUGIN_PATH": "C:\\PROGRAM FILES (X86)\\FOXIT SOFTWARE\\FOXIT READER\\plugins\\",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OMP_NUM_THREADS": "4",
+    "OneDrive": "C:\\Users\\J_Vic\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\J_Vic\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\MATLAB\\MATLAB Production Server\\R2015a\\runtime\\win64;C:\\Program Files\\MATLAB\\MATLAB Production Server\\R2015a\\bin;C:\\Program Files\\MATLAB\\MATLAB Production Server\\R2015a\\polyspace\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\J_Vic\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\J_Vic\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\J_Vic\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3a09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Users\\J_Vic\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "REACT_NATIVE_APP_ROOT": "C:\\Users\\J_Vic\\Documents\\semanaoministack11\\aulas\\mobile",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\J_Vic\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\J_Vic\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-QEQ2FQA",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-QEQ2FQA",
+    "USERNAME": "J_Vic",
+    "USERPROFILE": "C:\\Users\\J_Vic",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL"
+  ]
+}
